@@ -21,6 +21,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                pc: '#777',
               }
             }
           }
@@ -28,7 +29,29 @@
     </script>
 </head>
 <body>
-    <header></header>
+    <header class="container m-auto border">
+        <div class="hero">
+            <div class="lg:flex lg:w-full flex-col lg:flex-row-reverse justify-between items-center">
+              <div>
+                <img src="images/banner.png" class="rounded-lg max-w-full"/>
+                <div class="flex items-center gap-[9px] max-w-[255px] px-[25px] py-[20px] rounded-[10px] -mt-[100px] relative bg-white shadow-md ml-24">
+                    <div>
+                        <img src="images/star.svg" alt="star">
+                    </div>
+                    <div>
+                        <h1 class="text-[30px] font-extrabold">5.00</h1>
+                        <p class="text-[16px] font-semibold">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+              </div>
+              <div>
+                <h1 class="text-[80px] max-w-[628px] font-extrabold leading-[100px]">It's good tea time at The Tea House</h1>
+                <p class="py-6 max-w-[430px] text-[18px] font-medium text-pc">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] rounded-[10px] hover:bg-gradient-to-r hover:from-[#F00] hover:to-[#FF8938] text-white">Explore More <img class="w-3" src="images/arrow.png" alt="arrow"></button>
+              </div>
+            </div>
+        </div>
+    </header>
     <main></main>
     <footer></footer>
 </body>
